@@ -12,20 +12,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Profile Image Section */}
             <motion.div 
-              initial={{ opacity: 0, scale: 0.5 }}
+              initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
-              className="flex justify-center"
+              transition={{ duration: 0.6 }}
+              className="flex flex-col items-center"
             >
-              <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl">
-                <Image
-                  src="/profile-photo.jpg"
-                  alt="Profile Picture"
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 256px"
-                />
+              {/* Image removed */}
+              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-2">Ismail Gargouri</h1>
+              <h2 className="text-xl font-semibold text-blue-700 dark:text-blue-300 mb-4">Computer Science PhD Student</h2>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 text-center max-w-xl">
+                University of North Dakota | Machine Learning & AI Specialist
+              </p>
+              <div className="flex space-x-6">
+                {/* Social links here */}
               </div>
             </motion.div>
 
