@@ -17,14 +17,15 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="flex flex-col items-center"
             >
-              {/* Image removed */}
-              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-2">Ismail Gargouri</h1>
-              <h2 className="text-xl font-semibold text-blue-700 dark:text-blue-300 mb-4">Computer Science PhD Student</h2>
-              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 text-center max-w-xl">
-                University of North Dakota | Machine Learning & AI Specialist
-              </p>
-              <div className="flex space-x-6">
-                {/* Social links here */}
+              <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
+                <Image
+                  src="/profile-photo.jpg"
+                  alt="Profile Picture"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 192px"
+                />
               </div>
             </motion.div>
 
