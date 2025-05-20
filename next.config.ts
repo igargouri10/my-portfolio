@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import './globals.css'
 
 const nextConfig: NextConfig = {
   output: 'export',
