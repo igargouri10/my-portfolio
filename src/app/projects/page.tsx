@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Training a Feedforward Neural Network for XOR Classification: A Comparative Study",
     location: "Grand Forks, ND",
-    github: "https://github.com/igarg2001/xor-neural-network",
+    github: "https://github.com/igargouri10/ffnxorimplementation",
     achievements: [
       "Designed and trained a feedforward neural network using stochastic and batch gradient descent, achieving a minimum MSE of 0.0073.",
       "Conducted comprehensive hyperparameter analysis across 12 configurations (varying learning rates, bias inclusion, training strategies).",
@@ -78,7 +78,7 @@ const projects = [
   {
     title: "Labeling & Classification of Income Tax Fraud (NY State Dataset) using Python",
     location: "Grand Forks, ND",
-    github: "https://github.com/igarg2001/tax-fraud-detection",
+    github: "https://github.com/igargouri10/nytaxfrauddetect",
     achievements: [
       "Detected and classified fraudulent records with 99% accuracy using K-Means clustering and Isolation Forest anomaly detection.",
       "Engineered and assessed three classification models, selecting Extra Trees as optimal (99% accuracy, 1.09s compute time)."
@@ -87,7 +87,7 @@ const projects = [
   {
     title: "Graph Search Algorithms: DFS & BFS for Maze Exploration",
     location: "Grand Forks, ND",
-    github: "https://github.com/igarg2001/maze-search-algorithms",
+    github: "https://github.com/igargouri10/dfs-maze-pathfinder",
     achievements: [
       "Deployed DFS and BFS algorithms in Python, achieving a 15% improvement in pathfinding efficiency over baseline.",
       "Established a systematic approach for node data management (using dictionaries and stacks), leading to a 40% improvement in system responsiveness."
@@ -121,6 +121,16 @@ const projects = [
       "Developed a mobile commerce app for book browsing, purchasing, and user account management with secure login.",
       "Implemented dynamic price range searching (0−10, 10−20, etc.) via a streamlined mobile interface.",
       "Engineered administrator functions for data entry, system reset, and detailed book/customer views via hyperlinks."
+    ]
+  },
+  {
+    title: "Sales Focused Job Finding Web Application",
+    location: "Sfax, TUNISIA",
+    github: "https://github.com/igargouri10/career.spot.git",
+    achievements: [
+      "Designed and developed a full-stack web application using React.js (front-end) and Node.js/Express.js (back-end) following the MVC architecture, resulting in a scalable and maintainable codebase.",
+      "Integrated Stripe.js for online payment processing, reducing transaction errors by 20%, and implemented JWT-based authentication to ensure secure user access.",
+      "Optimized application data storage by utilizing MongoDB NoSQL SaaS solutions, improving database query performance by 25% and enhancing user experience."
     ]
   }
 ];
