@@ -6,6 +6,16 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: "YouTube ETL Pipeline and Streamlit Dashboard",
+    location: "Grand Forks, ND",
+    github: "https://github.com/igargouri10/youtube-etl-project",
+    achievements: [
+      "Developed a full-stack ETL pipeline to automate the extraction of public video data from the YouTube Data API, including metadata like title, views, likes, and publish dates.",
+      "Implemented a modular architecture (extract, transform, load) using Python and pandas, saving data to a local SQLite database for storage and future analysis.",
+      "Designed transformation functions to clean and enrich the dataset by converting formats, generating video age metrics, and removing duplicates."
+    ]
+  },
+  {
     title: "Feed-Forward Neural Network for Aircraft Pitch Prediction",
     location: "Grand Forks, ND",
     github: "https://github.com/igarg2001/aircraft-pitch-prediction",
