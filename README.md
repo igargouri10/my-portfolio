@@ -2,6 +2,10 @@
 
 A modern, responsive personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
+## 🚀 Live Demo
+
+🌐 **Live Site**: [Your Portfolio URL] (Update this after deployment)
+
 ## 🚀 Features
 
 - **Modern Design**: Clean and professional design with dark/light mode support
@@ -12,7 +16,7 @@ A modern, responsive personal portfolio website built with Next.js, TypeScript, 
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14
+- **Framework**: Next.js 15
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
@@ -82,7 +86,7 @@ This portfolio is deployed on Vercel. Visit: [Your Portfolio URL]
 
 - **GitHub**: [@igargouri10](https://github.com/igargouri10)
 - **LinkedIn**: [Ismail Gargouri](https://linkedin.com/in/ismail-gargouri)
-- **Email**: [Your Email]
+- **Email**: ismail.gargouri@und.edu
 
 ## 📄 License
 
