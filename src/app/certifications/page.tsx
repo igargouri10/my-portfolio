@@ -8,7 +8,7 @@ const certifications = [
   {
     title: "Google Data Analytics Professional Certificate",
     status: "In Progress",
-    expectedDate: "May 2025",
+    expectedDate: "July 2025",
     provider: "Google",
     description: "Comprehensive program covering data analytics fundamentals, including data cleaning, analysis, visualization, and R programming."
   }
