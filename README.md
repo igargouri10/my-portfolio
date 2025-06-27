@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with Next.js, TypeScript, 
 
 ## 🚀 Live Demo
 
-🌐 **Live Site**: [Your Portfolio URL] (Update this after deployment)
+🌐 **Live Site**: [Your Portfolio UR] (Update this after deployment)
 
 ## 🚀 Features
 
