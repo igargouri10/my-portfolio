@@ -59,6 +59,14 @@ export default function Navbar() {
             >
               LinkedIn
             </a>
+            <a
+              href="https://drive.google.com/file/d/1_Nhnc9q6_y5xyFLnAXzd_gTx5LmJAWeg/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-4 py-2 rounded-md font-semibold shadow hover:bg-blue-700 transition-colors duration-300"
+            >
+              View Resume
+            </a>
           </div>
         </div>
       </div>
