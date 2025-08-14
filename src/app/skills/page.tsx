@@ -58,7 +58,12 @@ const skillCategories = [
           "Data Ingestion & Cleaning",
           "Feature Extraction",
           "Text Parsing",
-          "Categorical Encoding"
+          "Categorical Encoding",
+          "Pipeline Orchestration",
+          "Cloud Data Warehousing & Data Lakes",
+          "Data Transformation & Modeling",
+          "Infrastructure & Containerization",
+          "Problem Solving & Debugging"
         ]
       },
       {
@@ -69,7 +74,13 @@ const skillCategories = [
           "Pandas",
           "Matplotlib",
           "Seaborn",
-          "Big Data Analytics"
+          "Big Data Analytics",
+          "Apache Airflow",
+          "Snowflake, AWS S3",
+          "dbt",
+          "Docker",
+          "Streamlit",
+          "Python, SQL"
         ]
       }
     ]

@@ -6,6 +6,16 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: "Automated ELT Pipeline and Predictive Analytics Platform",
+    location: "Grand Forks, ND",
+    github: "https://github.com/igargouri10/football-analytics-platform",
+    achievements: [
+      "Engineered and deployed a complete, end-to-end ELT platform using Python, Airflow, Docker, AWS S3, dbt, and Snowflake, achieving 100% automated, zero-touch ingestion and transformation of real-time API data into an analytics-ready warehouse.",
+      "Executed a strategic data warehouse migration from DuckDB to Snowflake and optimized the transformation pipeline by implementing dbt incremental models, reducing data refresh times on subsequent runs by over 90% and ensuring scalability.",
+      "Developed and integrated a Scikit-learn predictive model into a live Streamlit dashboard, providing real-time AI-driven match predictions and demonstrating full-stack capabilities from raw data ingestion to machine learning deployment."
+    ]
+  },
+  {
     title: "YouTube ETL Pipeline and Streamlit Dashboard",
     location: "Grand Forks, ND",
     github: "https://github.com/igargouri10/youtube-etl-project",
