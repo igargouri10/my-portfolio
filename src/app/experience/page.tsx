@@ -59,9 +59,19 @@ const experiences = [
     ]
   },
   {
+    title: "Testing Services Assistant",
+    company: "UND Testing Services",
+    location: "Grand Forks, ND",
+    period: "June 2025 - Present",
+    achievements: [
+      "Proctored and monitored up to 70 candidates per session, meticulously enforcing test security and confidentiality protocols to maintain the integrity of standardized exams.",
+      "Achieved and maintained certifications with 7 national testing companies, including Prometric and Pearson Vue, administering a high volume of online exams and processing all corresponding data and reports with strong attention to detail."
+    ]
+  },
+  {
     title: "Nature Camp Mentor",
     company: "ND EPSCoR",
-    location: "Sfax, Tunisia",
+    location: "Grand Forks, ND",
     period: "May 2025 - June 2025",
     achievements: [
       "Mentored a cohort of 10-20 Tribal College and University (TCU) students, facilitating their acclimation to a university campus and STEM research environments.",
