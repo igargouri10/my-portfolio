@@ -11,7 +11,28 @@ const certifications = [
     expectedDate: "July 2025",
     provider: "Google",
     description: "Comprehensive program covering data analytics fundamentals, including data cleaning, analysis, visualization, and R programming."
-  }
+  },
+  {
+    title: "AIESEC Certificate of Membership",
+    status: "Achieved",
+    expectedDate: "January 2022",
+    provider: "AIESEC in Tunisia",
+    description: "Certificate of participation in AIESEC's international membership program."
+  },
+  {
+    title: "AIESEC Certificate of Membership",
+    status: "Achieved",
+    expectedDate: "January 2021",
+    provider: "AIESEC in Germany",
+    description: "Certificate of participation in AIESEC's international membership program."
+  },
+  {
+    title: "AIESEC Certificate of Membership",
+    status: "Achieved",
+    expectedDate: "August 2020",
+    provider: "AIESEC in the United States",
+    description: "Certificate of participation in AIESEC's international membership program."
+  },
 ];
 
 export default function Certifications() {

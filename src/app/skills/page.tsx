@@ -125,6 +125,72 @@ const skillCategories = [
     ]
   },
   {
+    title: "Business, Marketing & Sales",
+    subcategories: [
+      {
+        subtitle: "Marketing",
+        skills: [
+          "Marketing Strategy",
+          "Social Media Management",
+          "Campaign Management",
+          "Sales Strategy & Prospecting",
+          "Lead Conversion Optimization",
+          "Client Outreach"
+        ]
+      },
+      {
+        subtitle: "Creative & Communication",
+          skills: [
+            "Graphic Design",
+            "Brand Identity Management",
+            "Bilingual Translation (English/Tunisian Arabic)",
+            "Cultural Adaptation & Localization",
+          ]
+      }
+    ]
+  },
+  {
+    title: "Research, Academia & Education",
+    subcategories: [
+      {
+        skills: [
+          "Scientific Writing & Publication",
+          "Literature Review & Gap Analysis",
+          "Grant Proposal Support",
+          "Academic Mentorship",
+          "STEM Education"
+        ]
+      }
+    ]
+  },
+  {
+    title: "Human Resources & Training",
+    subcategories: [
+      {
+        skills: [
+          "Talent Acquisition & Recruitment",
+          "Training & Development",
+          "Member Experience & Retention",
+          "Volunteer Management"
+        ]
+      }
+    ]
+  },
+  {
+    title: "Operations, Logistics & Management",
+    subcategories: [
+      {
+        skills: [
+          "Program Management",
+          "Event Planning & Logistics",
+          "Process Improvement",
+          "Compliance & Protocol Enforcement",
+          "Partnership Management"
+        ]
+      }
+    ]
+  },
+  {
     title: "Professional & Soft Skills",
     subcategories: [
       {
