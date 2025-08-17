@@ -2,7 +2,17 @@
 
 import PageTransition from '@/components/PageTransition';
 
-const skillCategories = [
+interface Subcategory {
+  subtitle?: string;
+  skills: string[];
+}
+
+interface SkillCategory {
+  title: string;
+  subcategories: Subcategory[];
+}
+
+const skillCategories: SkillCategory[] = [
   {
     title: "AI & Machine Learning",
     subcategories: [
