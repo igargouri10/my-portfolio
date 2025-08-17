@@ -1,5 +1,6 @@
 'use client';
 
+// Updated design with dark theme and blue colors - v2.0
 import { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaSearch, FaFileAlt, FaCog, FaPaperPlane, FaGraduationCap, FaBriefcase, FaCode, FaAward, FaUsers, FaTools, FaBars, FaTimes } from 'react-icons/fa';
 import Image from 'next/image';
