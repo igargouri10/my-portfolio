@@ -1,7 +1,6 @@
 'use client';
 
 import PageTransition from '@/components/PageTransition';
-import { motion } from 'framer-motion';
 
 export default function Education() {
   const education = [
@@ -38,46 +37,48 @@ export default function Education() {
 
   return (
     <PageTransition>
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-          Education
-        </h1>
-        <div className="space-y-12">
-          {education.map((edu, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="flex justify-between items-start mb-4">
+      <div className="min-h-screen bg-gray-900 text-white">
+        <div className="max-w-4xl mx-auto px-6 py-8">
+          <div className="flex items-center mb-8">
+            <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+            <h1 className="text-3xl font-bold text-white">
+              Education
+            </h1>
+          </div>
+          
+          <div className="space-y-12">
+            {education.map((edu, index) => (
+              <div
+                key={index}
+                className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors duration-300"
+              >
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                  <div>
+                    <h2 className="text-xl font-semibold text-blue-400">{edu.school}</h2>
+                    <p className="text-gray-300">{edu.location}</p>
+                  </div>
+                  <div className="text-right mt-2 md:mt-0">
+                    <p className="text-gray-400">{edu.date}</p>
+                    <p className="text-gray-400">GPA: {edu.gpa}</p>
+                  </div>
+                </div>
+                <p className="text-lg font-medium mb-4 text-white">{edu.degree}</p>
                 <div>
-                  <h2 className="text-xl font-semibold text-blue-600 dark:text-blue-400">{edu.school}</h2>
-                  <p className="text-gray-600 dark:text-gray-300">{edu.location}</p>
-                </div>
-                <div className="text-right">
-                  <p className="text-gray-600 dark:text-gray-300">{edu.date}</p>
-                  <p className="text-gray-600 dark:text-gray-300">GPA: {edu.gpa}</p>
-                </div>
-              </div>
-              <p className="text-lg font-medium mb-4 text-gray-800 dark:text-gray-200">{edu.degree}</p>
-              <div>
-                <h3 className="text-md font-medium mb-2 text-gray-700 dark:text-gray-300">Relevant Coursework:</h3>
-                <div className="flex flex-wrap gap-2">
-                  {edu.courses.map((course, courseIndex) => (
-                    <motion.span
-                      key={courseIndex}
-                      whileHover={{ scale: 1.05 }}
-                      className="bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300 px-3 py-1 rounded-full text-sm"
-                    >
-                      {course}
-                    </motion.span>
-                  ))}
+                  <h3 className="text-md font-medium mb-2 text-gray-300">Relevant Coursework:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {edu.courses.map((course, courseIndex) => (
+                      <span
+                        key={courseIndex}
+                        className="bg-blue-900/50 text-blue-300 px-3 py-1 rounded-full text-sm hover:bg-blue-800/50 transition-colors duration-300"
+                      >
+                        {course}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </motion.div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </PageTransition>

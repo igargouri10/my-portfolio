@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import PageTransition from '@/components/PageTransition';
 
 const skillCategories = [
@@ -219,46 +218,49 @@ const skillCategories = [
 export default function Skills() {
   return (
     <PageTransition>
-      <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-          Technical & Professional Skills
-        </h1>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {skillCategories.map((category, categoryIndex) => (
-            <motion.div
-              key={categoryIndex}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6"
-            >
-              <h2 className="text-xl font-semibold mb-6 text-blue-600 dark:text-blue-400">
-                {category.title}
-              </h2>
-              
-              <div className="space-y-6">
-                {category.subcategories.map((subcategory, subIndex) => (
-                  <div key={subIndex}>
-                    <h3 className="text-lg font-medium mb-3 text-gray-700 dark:text-gray-300">
-                      {subcategory.subtitle}
-                    </h3>
-                    <div className="flex flex-wrap gap-2">
-                      {subcategory.skills.map((skill, skillIndex) => (
-                        <motion.span
-                          key={skillIndex}
-                          whileHover={{ scale: 1.05 }}
-                          className="bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300 px-3 py-1 rounded-full text-sm"
-                        >
-                          {skill}
-                        </motion.span>
-                      ))}
+      <div className="min-h-screen bg-gray-900 text-white">
+        <div className="max-w-6xl mx-auto px-6 py-8">
+          <div className="flex items-center mb-8">
+            <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+            <h1 className="text-3xl font-bold text-white">
+              Technical & Professional Skills
+            </h1>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {skillCategories.map((category, categoryIndex) => (
+              <div
+                key={categoryIndex}
+                className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors duration-300"
+              >
+                <h2 className="text-xl font-semibold mb-6 text-blue-400">
+                  {category.title}
+                </h2>
+                
+                <div className="space-y-6">
+                  {category.subcategories.map((subcategory, subIndex) => (
+                    <div key={subIndex}>
+                      {subcategory.subtitle && (
+                        <h3 className="text-lg font-medium mb-3 text-gray-300">
+                          {subcategory.subtitle}
+                        </h3>
+                      )}
+                      <div className="flex flex-wrap gap-2">
+                        {subcategory.skills.map((skill, skillIndex) => (
+                          <span
+                            key={skillIndex}
+                            className="bg-blue-900/50 text-blue-300 px-3 py-1 rounded-full text-sm hover:bg-blue-800/50 transition-colors duration-300"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </motion.div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </PageTransition>

@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import PageTransition from '@/components/PageTransition';
 
 const experiences = [
@@ -59,19 +58,9 @@ const experiences = [
     ]
   },
   {
-    title: "Testing Services Assistant",
-    company: "UND Testing Services",
-    location: "Grand Forks, ND",
-    period: "June 2025 - Present",
-    achievements: [
-      "Proctored and monitored up to 70 candidates per session, meticulously enforcing test security and confidentiality protocols to maintain the integrity of standardized exams.",
-      "Achieved and maintained certifications with 7 national testing companies, including Prometric and Pearson Vue, administering a high volume of online exams and processing all corresponding data and reports with strong attention to detail."
-    ]
-  },
-  {
     title: "Nature Camp Mentor",
     company: "ND EPSCoR",
-    location: "Grand Forks, ND",
+    location: "Sfax, Tunisia",
     period: "May 2025 - June 2025",
     achievements: [
       "Mentored a cohort of 10-20 Tribal College and University (TCU) students, facilitating their acclimation to a university campus and STEM research environments.",
@@ -137,41 +126,43 @@ const experiences = [
 export default function Experience() {
   return (
     <PageTransition>
-      <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-          Professional Experience
-        </h1>
-        
-        <div className="space-y-8">
-          {experiences.map((exp, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div>
-                  <h2 className="text-xl font-semibold text-blue-600 dark:text-blue-400">
-                    {exp.title}
-                  </h2>
-                  <p className="text-gray-600 dark:text-gray-300">{exp.company}</p>
-                  <p className="text-gray-600 dark:text-gray-300">{exp.location}</p>
+      <div className="min-h-screen bg-gray-900 text-white">
+        <div className="max-w-4xl mx-auto px-6 py-8">
+          <div className="flex items-center mb-8">
+            <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+            <h1 className="text-3xl font-bold text-white">
+              Professional Experience
+            </h1>
+          </div>
+          
+          <div className="space-y-8">
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors duration-300"
+              >
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                  <div>
+                    <h2 className="text-xl font-semibold text-blue-400">
+                      {exp.title}
+                    </h2>
+                    <p className="text-gray-300">{exp.company}</p>
+                    <p className="text-gray-300">{exp.location}</p>
+                  </div>
+                  <p className="text-gray-400 mt-2 md:mt-0 whitespace-nowrap">
+                    {exp.period}
+                  </p>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 mt-2 md:mt-0 whitespace-nowrap">
-                  {exp.period}
-                </p>
+                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                  {exp.achievements.map((achievement, achievementIndex) => (
+                    <li key={achievementIndex} className="text-base">
+                      {achievement}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                {exp.achievements.map((achievement, achievementIndex) => (
-                  <li key={achievementIndex} className="text-base">
-                    {achievement}
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </PageTransition>

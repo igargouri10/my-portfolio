@@ -13,6 +13,13 @@ const certifications = [
     description: "Comprehensive program covering data analytics fundamentals, including data cleaning, analysis, visualization, and R programming."
   },
   {
+    title: "Duolingo English Test (DET)",
+    status: "Achieved",
+    expectedDate: "January 2024",
+    provider: "Duolingo",
+    description: "Professional English proficiency test with a score of 130/160."
+  },
+  {
     title: "AIESEC Certificate of Membership",
     status: "Achieved",
     expectedDate: "January 2022",
