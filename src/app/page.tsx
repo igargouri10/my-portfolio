@@ -191,17 +191,10 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
                   <div>
-                    <h5 className="font-semibold text-blue-400">Master's in Computer Science</h5>
-                    <p className="text-gray-300">University of North Dakota</p>
-                  </div>
-                  <span className="text-gray-400 text-sm mt-1 sm:mt-0">2022 - 2024</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
-                  <div>
                     <h5 className="font-semibold text-blue-400">Bachelor's in Computer Science</h5>
-                    <p className="text-gray-300">Higher Institute of Computer Science and Multimedia of Sfax</p>
+                    <p className="text-gray-300">University of Sfax</p>
                   </div>
-                  <span className="text-gray-400 text-sm mt-1 sm:mt-0">2018 - 2022</span>
+                  <span className="text-gray-400 text-sm mt-1 sm:mt-0">2019 - 2022</span>
                 </div>
               </div>
             </div>
@@ -214,7 +207,7 @@ export default function Home() {
                     <h5 className="font-semibold text-blue-400">Graduate Research Assistant</h5>
                     <p className="text-gray-300">University of North Dakota</p>
                   </div>
-                  <span className="text-gray-400 text-sm mt-1 sm:mt-0">2025 - Present</span>
+                  <span className="text-gray-400 text-sm mt-1 sm:mt-0">January 2025 - May 2025</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
                   <div>
