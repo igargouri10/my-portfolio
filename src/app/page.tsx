@@ -13,7 +13,7 @@ export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const dynamicTexts = [
-    "Hello! I'm a Computer Science PhD Student",
+    "Hello! I'm a Computer Science Master's Student",
     "Add > Commit > Push >",
     "Let's Monitor Incredible Work Together"
   ];
@@ -123,7 +123,7 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-4xl font-bold text-white mb-2 text-center lg:text-left">Ismail Gargouri</h1>
-              <h2 className="text-2xl font-semibold text-blue-400 mb-4 text-center lg:text-left">COMPUTER SCIENCE PHD STUDENT</h2>
+              <h2 className="text-2xl font-semibold text-blue-400 mb-4 text-center lg:text-left">COMPUTER SCIENCE MASTER'S STUDENT</h2>
               <p className="text-gray-300 mb-2 text-center lg:text-left">ismail.gargouri@und.edu</p>
               <p className="text-gray-300 mb-6 text-center lg:text-left">Based in Grand Forks, ND</p>
               
@@ -163,7 +163,7 @@ export default function Home() {
                 <span className="text-blue-400">|</span>
               </h2>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Dynamic and rigorous computer science PhD student with advanced technical skills in machine learning, 
+                Dynamic and rigorous computer science Master's student with advanced technical skills in machine learning, 
                 AI, and full-stack development. Proven ability to lead complex projects under tight deadlines.
               </p>
             </div>
@@ -184,7 +184,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
                   <div>
-                    <h5 className="font-semibold text-blue-400">Computer Science PhD</h5>
+                    <h5 className="font-semibold text-blue-400">Computer Science Master's</h5>
                     <p className="text-gray-300">University of North Dakota</p>
                   </div>
                   <span className="text-gray-400 text-sm mt-1 sm:mt-0">2024 - Present</span>
