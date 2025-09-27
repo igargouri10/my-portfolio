@@ -4,10 +4,21 @@ import PageTransition from '@/components/PageTransition';
 
 const experiences = [
   {
+    title: "Graduate Teaching Assistant",
+    company: "University of North Dakota - College of Engineering and Mines",
+    location: "Grand Forks, ND",
+    period: "August 2025 - Present",
+    achievements: [
+      "Facilitated 15+ weekly lab sessions for 80+ students in Digital Circuits, improving student engagement and comprehension through interactive demonstrations.",
+      "Mentored and advised 30+ students per semester in 1:1 and group settings, contributing to a 15% improvement in average exam performance.",
+      "Collaborated with faculty to design and update 10+ lab assignments and tutorials, streamlining course delivery and enhancing learning outcomes."
+    ]
+  },
+  {
     title: "Graduate Research Assistant",
     company: "University of North Dakota - College of Engineering and Mines",
     location: "Grand Forks, ND",
-    period: "February 2025 - Present",
+    period: "February 2025 - May 2025",
     achievements: [
       "Authored and edited 5+ sections of a scientific research paper (Introduction, Literature Review, Methodology, Implementation, Conclusion), contributing to publication-quality outputs.",
       "Designed and implemented a Markov Decision Process (MDP) model simulating aircraft landing under control delay, achieving a 30% improvement in landing success rate compared to baseline models.",

@@ -7,10 +7,12 @@ export default function Education() {
     {
       school: "University of North Dakota",
       location: "Grand Forks, ND",
-      degree: "PhD Student in Computer Science",
+      degree: "Master's Student in Computer Science",
       date: "Expected Graduation: August 2029",
       gpa: "4.0",
       courses: [
+        "Advanced Software Engineering",
+        "Computer Forensics",
         "Machine Learning",
         "Predictive Modeling",
         "Advanced Database Systems",
